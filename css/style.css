@@ -1,0 +1,101 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    height: 7vh;
+    align-items: center;
+    padding: 0px 15px;
+
+}
+.logo{
+    width: 110px;
+    height: 65px;    
+}
+.boton-ingresar{
+    padding: 6px 36px;   
+    background-color: inherit;
+    color: white;    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.boton-ingresar:hover{
+    background-color: #212529;
+}
+.boton-suscribete{
+    padding: 10px 24px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+}
+/*.boton-suscribete::after{
+    content: "Iniciar sesión";
+}*/
+.boton-suscribete:hover{
+    background-color: rgb(193, 17, 25);
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    color: white;
+    text-align: center;
+}
+.ver{
+    font-size: 32px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+.planes{
+    font-size: 18px;
+    margin-top: 16px;
+}
+.boton-acceder{
+    padding: 13px 24px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 5px 5px 5px 5px; 
+}
+.texto{
+    font-size: 18px;
+    margin-top: 16px;
+}
+.emailNum{
+    padding: 13px 24px;
+    background-color: inherit;
+    color: white;  
+    margin: 5px 5px 5px 5px;    
+    width: 250px;
+}
+.boton-acceder:hover{
+    background-color: rgb(193, 17, 25);
+}
+.emailComen{
+    display: flex;
+    padding: 0px 15px;
+    justify-content: space-between;   
+    border-radius: 4px;    
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+@media screen and (max-width:600px){    
+    .emailNum{          
+        width: 100px;
+    }
+}
